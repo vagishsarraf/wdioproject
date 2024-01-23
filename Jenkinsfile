@@ -1,7 +1,7 @@
 node {
     stage('Preparation') { // for display purposes
         // Get some code from a GitHub repository
-        git 'https://github.com/vagishsarraf/wdioproject'
+        git branch: 'main', credentialsId: 'c6eb9e50-7f1f-436d-8f09-6bcff81c1585', url: 'https://github.com/vagishsarraf/wdioproject'
         // Get the Maven tool.
         // ** NOTE: This 'M3' Maven tool must be configured
         // **       in the global configuration.
