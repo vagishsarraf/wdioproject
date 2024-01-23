@@ -1,4 +1,4 @@
-Feature: The Guinea Pig Website Test
+Feature: The Guinea Pig Website
 
   Scenario Outline: <TestID> : As a user, I can log into the secure area
     Given I am on the login page
