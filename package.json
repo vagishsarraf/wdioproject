@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\"",
-    "wdio": "wdio run ./wdio.conf.js --port=$port",
-    "cloud": "wdio run ./wdio.uat.conf.js"
+    "wdio": "wdio run ./wdio.conf.js --port=$port --logLevel=$logLevel",
+    "cloud": "wdio run ./wdio.uat.conf.js --logLevel=$logLevel"
   },
   "keywords": [],
   "author": "",
