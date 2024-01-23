@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" --port=$port --ort=$ort",
-    "wdio": "wdio run ./wdio.conf.js --port=$port",
+    "test": "echo \"Error: no test specified\"",
+    "wdio": "wdio run ./wdio.conf.js --port=$port --logLevel=$logLevel",
     "cloud": "wdio run ./wdio.uat.conf.js"
   },
   "keywords": [],
