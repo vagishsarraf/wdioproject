@@ -1,1 +1,1 @@
-port=$(port) logLevel=$(logLevel) npm run $(script)
+npm run $script --port=$port --logLevel=$logLevel --jenkinsKey=$jenkinsKey
