@@ -6,20 +6,21 @@
   "scripts": {
     "test": "echo \"Error: no test specified\"",
     "wdio": "wdio run ./wdio.conf.js --port=$port --logLevel=$logLevel",
-    "cloud": "wdio run ./wdio.uat.conf.js --logLevel=$logLevel --user=$lt_cred_USR --key=$lt_cred_PSW",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@wdio/cli": "^8.27.2",
-    "@wdio/cucumber-framework": "^8.27.2",
-    "@wdio/local-runner": "^8.27.2",
-    "@wdio/spec-reporter": "^8.27.2"
+    "cloud": "wdio run ./wdio.uat.conf.js --logLevel=$logLevel --user=$lt_cred_USR --key=$lt_cred_PSW"
   },
-  "dependencies": {
-    "@wdio/allure-reporter": "^8.28.6",
-    "supertest": "^6.3.4",
-    "wdio-lambdatest-service": "^2.1.2",
-    "winston": "^3.11.0"
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@wdio/cli": "^8.27.2",
+      "@wdio/cucumber-framework": "^8.27.2",
+      "@wdio/local-runner": "^8.27.2",
+      "@wdio/spec-reporter": "^8.27.2"
+    },
+    "dependencies": {
+      "@wdio/allure-reporter": "^8.28.6",
+      "supertest": "^6.3.4",
+      "wdio-lambdatest-service": "^2.1.2",
+      "winston": "^3.11.0"
+    }
   }
-}
